@@ -1,0 +1,25 @@
+{
+  "name": "rupiah-test",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "The `generateProduct` function is used to generate random product data and save it to a JSON file. It takes a single parameter `total`, which specifies the number of products to generate",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "keywords": [
+    "generator",
+    "dummy-data-product"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibnufals/rupiah-test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^3.1.0",
+    "rp-convert": "^1.0.5"
+  }
+}
